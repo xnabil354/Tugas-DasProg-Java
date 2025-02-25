@@ -11,7 +11,7 @@ public class OperasiAritmatika {
         double tambah = Nilai1 + Nilai2;
         double kurang = Nilai1 - Nilai2;
         double kali = Nilai1 * Nilai2;
-        double bagi = Nilai1 / Nilai2;
+        double bagi = (double) Nilai1 / Nilai2;
         double persen = Nilai1 % Nilai2;
         System.out.println("~~~~~~~~~~~~~~");
         System.out.println("Hasil dari sistem aritmatika Tambah = " + tambah);
